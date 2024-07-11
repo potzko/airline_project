@@ -1,0 +1,1 @@
+passwords are all sha256, store them at that size on the db
