@@ -1,1 +1,11 @@
 passwords are all sha256, store them at that size on the db
+
+add auth for operations,
+add user -> my flights
+add buy flight ticket
+add search flights from A -> B
+add search flights from A -> ... -> B based on (fastest, cheapest) (prob dijkstra algo) 
+backend: move from thin sql wrapper to indevidual wrappers for each "class" (already started see folder dbwrappers)
+go through files and remove data to a "config.txt", stuff like sql passwords (which I know I left), and links to the db address
+do desighn on the front (clone from header.css that I already did)
+ 
